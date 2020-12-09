@@ -1,0 +1,96 @@
+body button h1 a p div html{
+  font-family: sans-serif;
+  }
+  
+h1 p div html{
+  color: #EBF0F5;
+  background-color: #EBF0F5;	
+}
+
+.logoutBtn{
+  background-color:#B3001B;
+  border-radius: 11px;
+  isplay:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:42px;
+  font-weight:bold;
+  padding:20px 285px;
+  text-decoration:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  }
+  
+.onBtn {
+  background-color:#1DA4ED;
+  border-radius:11px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:42px;
+  font-weight:bold;
+  padding:40px 100px;
+  text-decoration:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+}
+
+.onBtn:hover {
+  background-color:#118DD0;
+}
+
+.onBtn:active {
+  position:relative;
+  top:1px;
+}
+
+.offBtn {
+  background-color:#3D3D3D;
+  border-radius:11px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:42px;
+  font-weight:bold;
+  padding:40px 100px;
+  text-decoration:none;
+  margin: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+}
+
+.offBtn:hover {
+  background-color:#262626;
+}
+  
+.offBtn:active {
+  position:relative;
+  top:1px;
+}
+
+.centerButtons{
+  align-content: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32pt;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+hr {
+  margin-left: 40%;
+  margin-right: 40%;
+  border-color: #262626;
+}
