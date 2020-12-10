@@ -13,9 +13,9 @@ To run this, you will need to make sure you replace all variable that say $bridg
 # API Setup
 Phillips Hue provides some great documentation here: https://developers.meethue.com/develop/get-started-2/
 
-In short, you need to find the IP address of your Hue Bridge (and set it statically if possible). You can then use the built in tool at https://<bridge ip address>/debug/clip.html to get your token and test the API actions.
+In short, you need to find the IP address of your Hue Bridge (and set it statically if possible). You can then use the built in tool at **https://<bridge ip address>/debug/clip.html** to get your token and test the API actions.
   
-  Once you have opened the clip.html page, you can press the big circle button on the bridge. Back at the web tool we are going to type in the below code in the message body and press POST. You can also rename "hue_api_app" to whatever you want but it should be recognizable for future reference.
+  Once you have opened the clip.html page, you can press the big circle button on the bridge. Back at the web tool we are going to type in the below code in the message body and press **POST**. You can also rename "hue_api_app" to whatever you want but it should be recognizable for future reference.
   
   ```sh
 {"devicetype":"hue_api_app"}
