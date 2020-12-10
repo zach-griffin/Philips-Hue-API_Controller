@@ -15,8 +15,45 @@ Phillips Hue provides some great documentation here: https://developers.meethue.
 
 In short, you need to find the IP address of your Hue Bridge (and set it statically if possible). You can then use the built in tool at **https://bridge-ip-address/debug/clip.html** to get your token and test the API actions.
   
-  Once you have opened the clip.html page, you can press the big circle button on the bridge. Back at the web tool we are going to type in the below code in the message body and press **POST**. You can also rename "hue_api_app" to whatever you want but it should be recognizable for future reference.
+Once you have opened the clip.html page, you can press the big circle button on the bridge. Back at the web tool we are going to type in the below code in the message body and press **POST**. You can also rename "hue_api_app" to whatever you want but it should be recognizable for future reference.
   
-  ```sh
+```sh
 {"devicetype":"hue_api_app"}
+```
+
+Now in the command response, you should get something like this:
+
+```sh
+[
+  {
+    "success": {
+      "username":"086c23aea938ac83bf692f3e63149b99"
+    }
+  }
+]
+```
+
+And thats it! You can now submit GET's and PUT's to your hearts desire. Here are a few examples
+
+## Get All Lights
+```sh
+METHOD: GET
+ADDRESS:https://bridge_ip_address/api/YOUR-API-TOKEN/lights
+```
+## Get A Specific Light
+```sh
+METHOD: GET
+ADDRESS:https://bridge_ip_address/api/YOUR-API-TOKEN/lights/LIGHT-NUMBER
+```
+## Turn A Light On
+```sh
+METHOD: PUT
+ADDRESS:https://bridge_ip_address/api/YOUR-API-TOKEN/lights/LIGHT-NUMBER/state
+BODY:   {on:"true"}
+```
+## Turn A Light Off
+```sh
+METHOD: PUT
+ADDRESS:https://bridge_ip_address/api/YOUR-API-TOKEN/lights/LIGHT-NUMBER/state
+BODY:   {on:"false"}
 ```
