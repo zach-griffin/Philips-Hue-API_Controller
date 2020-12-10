@@ -33,7 +33,9 @@ Now in the command response, you should get something like this:
 ]
 ```
 
-And thats it! You can now submit GET's and PUT's to your hearts desire. Here are a few examples
+And thats it! You can now submit GET's and PUT's to your hearts desire. There are a few examples in the next section.
+
+# API Examples
 
 ## Get All Lights
 ```sh
