@@ -59,3 +59,5 @@ METHOD: PUT
 ADDRESS:https://bridge_ip_address/api/YOUR-API-TOKEN/lights/LIGHT-NUMBER/state
 BODY:   {on:"false"}
 ```
+
+<img width="989" alt="Screen Shot 2021-04-24 at 15 10 00" src="https://user-images.githubusercontent.com/36248109/115970496-adde0300-a510-11eb-9a42-6ced1e3b23ab.png">
