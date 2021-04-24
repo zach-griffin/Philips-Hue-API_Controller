@@ -1,13 +1,3 @@
-<?php
-
-if(isset($_SESSION)){}
-
-else{
-  session_start();
-}
-
-?>
-
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
@@ -61,20 +51,20 @@ else{
   </style>
   <body>
     <div class="card">
-    <div>
-      <i style="font-size:60px;" class="fas fa-exclamation-triangle"></i>
-    </div>
-    <h1>Uh-Oh!</h1>
-    <p>An unexpected error occurred.</p>
-    <br>
-    <hr style="border-color:#E00022;">
-    <br>
-    <p>We can't guarantee the action was processed.</p>
-    <br>
-    <p>Please contact the server administrator</p>
-    <br>
-    <br>
-    <a href="/" class="redirectBtn">Go Home</a>
+      <div>
+        <i style="font-size:60px;" class="fas fa-exclamation-triangle"></i>
+      </div>
+      <h1>Uh-Oh!</h1>
+      <p>An unexpected error occurred.</p>
+      <br>
+      <hr style="border-color:#E00022;">
+      <br>
+      <p>We can't guarantee the action was processed.</p>
+      <br>
+      <p>Please contact the server administrator</p>
+      <br>
+      <br>
+      <a href="/" class="redirectBtn">Go Home</a>
     </div>
   </body>
 </html>
