@@ -1,7 +1,7 @@
 body button h1 a p div html{
   font-family: sans-serif;
-  }
-  
+}
+
 h1 p div html{
   color: #EBF0F5;
   background-color: #EBF0F5;	
@@ -22,8 +22,8 @@ h1 p div html{
   -moz-appearance: none;
   appearance: none;
   border: 0;
-  }
-  
+}
+
 .onBtn {
   background-color:#1DA4ED;
   border-radius:11px;
@@ -71,7 +71,7 @@ h1 p div html{
 .offBtn:hover {
   background-color:#262626;
 }
-  
+
 .offBtn:active {
   position:relative;
   top:1px;
