@@ -6,8 +6,8 @@
 		session_start();
 	}
 	
-	$bridgeIP = "X.X.X.X"
-	$apiKey = "ENTERKEY"
+	$bridgeIP = "X.X.X.X";
+	$apiKey = "ENTERKEY";
 	
 	function callAPI ($status, $lightnum){
 		if ($status == 'on'){
